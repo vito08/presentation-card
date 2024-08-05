@@ -197,6 +197,11 @@ span {
         font-size: 12px;
     }
 
+    span {
+        color: aqua;
+        font-size: 12px;
+    }
+
     footer {
         font-size: 1.4rem;
     }
