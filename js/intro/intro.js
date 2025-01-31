@@ -37,23 +37,6 @@ document.getElementById("p-c").onclick = function() {
     toggleDisplay("p-c");
 };
 
-function toggleEmail() {
-    var textContainer = document.getElementById("aboutme-text");
-    var email = textContainer.querySelector('.bx.bxs-envelope');
-    var emailSpan = document.createElement("span");
-    emailSpan.textContent = "victorhugosoaresferreira6@gmail.com";
-    textContainer.replaceChild(emailSpan, email);
-    emailSpan.style.paddingTop = "32px"
-}
-
-function togglePhone() {
-    var textContainer = document.getElementById("aboutme-text");
-    var phone = textContainer.querySelector('.bx.bxs-phone');
-    var phoneSpan = document.createElement("span");
-    phoneSpan.textContent = "+55 (11) 97032-1202";
-    textContainer.replaceChild(phoneSpan, phone);
-}
-
 document.getElementById("html-logo").onclick = function() {
     showDialog("html");
 };
